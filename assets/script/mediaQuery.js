@@ -4,15 +4,15 @@ export function mediaQuery (){ //inserir como novo aprendizado https://www.w3sch
     const screenMobile = window.matchMedia("(max-width: 480px)");
     let imgMain = document.querySelector('.img__main');
     if (screenTablet.matches) {
-        imgMain.src = '../../../assets/images/illustration-sign-up-mobile.svg';
+        imgMain.src = './assets/images/illustration-sign-up-mobile.svg';
         console.log('tablet')
     }
     if (screenMobile.matches) {
-        imgMain.src = '../assets/images/illustration-sign-up-mobile.svg';
+        imgMain.src = './assets/images/illustration-sign-up-mobile.svg';
         console.log('mobile')
     }
     if (screenDesktop.matches) {
-        imgMain.src = '../../../assets/images/illustration-sign-up-desktop.svg';
+        imgMain.src = './assets/images/illustration-sign-up-desktop.svg';
         console.log('desktop')
     }
 }
