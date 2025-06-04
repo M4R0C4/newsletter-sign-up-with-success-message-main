@@ -1,0 +1,148 @@
+@use '../bases/var';
+
+body{
+    font-family: 'Roboto', sans-serif;
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100vh;
+        background-color: var.$white;
+        img{
+            width: var.$spacing-800;  
+            height: var.$spacing-800;
+            margin: 0 var.$spacing-300 var.$spacing-400 var.$spacing-300;  
+        }
+        h1{
+            font-weight: var.$text-preset-1-mobile-weight;
+            font-size: var.$text-preset-1-mobile-size;
+            line-height: var.$text-preset-1-mobile-line-height;
+            letter-spacing: var.$text-preset-1-mobile-letter-spacing;
+            margin: 0 var.$spacing-300 var.$spacing-400 var.$spacing-300;
+        }
+        p{
+            font-weight: var.$text-preset-2-regular-weight;
+            font-size: var.$text-preset-2-regular-size;
+            line-height: var.$text-preset-2-regular-line-height;
+            letter-spacing: var.$text-preset-2-regular-letter-spacing;
+            margin: 0 var.$spacing-300 var.$spacing-400 var.$spacing-300;
+        }
+        b{
+            font-weight: var.$text-preset-2-bold-weight;
+            font-size: var.$text-preset-2-bold-size;
+            line-height: var.$text-preset-2-bold-line-height;
+            letter-spacing: var.$text-preset-2-bold-letter-spacing;
+        }
+        button{
+            width: 90%;
+            height: auto;
+            border: solid 1px;
+            border-radius: 8px;
+            padding: var.$spacing-200 var.$spacing-300 var.$spacing-200 var.$spacing-300;
+            margin-top: var.$spacing-100;
+            margin-bottom: var.$spacing-300;
+            background: var.$blue-800;
+            color: var.$white;
+            font-weight: var.$text-preset-3-weight;
+            font-size: var.$text-preset-3-size;
+            line-height: var.$text-preset-3-line-height;
+            letter-spacing: var.$text-preset-3-letter-spacing;
+            margin: 13rem var.$spacing-300 var.$spacing-200 var.$spacing-300;
+            &:hover, &:active {
+                background: var.$gradient-4;
+                box-shadow: 10px 10px 20px 0px rgba(255, 82, 123, 0.5);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    body{
+        height: 100vh;
+        background-color: var.$blue-700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .card{
+        display: flex;
+        flex-direction: column;
+        margin: 80px ;
+        background-color: var.$white;
+        border-radius:36px;
+        height: 32.5rem; 
+        width: 31.5rem;
+        img{
+            margin: 3.75rem var.$spacing-800 var.$spacing-400 var.$spacing-800;
+        }
+        h1{
+            font-weight: var.$text-preset-1-weight;
+            font-size: var.$text-preset-1-size;
+            line-height: var.$text-preset-1-line-height;
+            letter-spacing: var.$text-preset-1-letter-spacing;
+            margin: 0 var.$spacing-800 var.$spacing-400 var.$spacing-800;
+        }
+        p{
+            font-weight: var.$text-preset-2-regular-weight;
+            font-size: var.$text-preset-2-regular-size;
+            line-height: var.$text-preset-2-regular-line-height;
+            letter-spacing: var.$text-preset-2-regular-letter-spacing;
+            margin: 0 var.$spacing-800 var.$spacing-400 var.$spacing-800;
+        }
+        button{
+            margin: 0 var.$spacing-800 var.$spacing-800 var.$spacing-800;
+            width: 80%;
+            &:hover, &:active {
+                background: var.$gradient-4;
+                box-shadow: 10px 10px 20px 0px rgba(255, 82, 123, 0.5);
+            }
+        }
+        }    
+    }
+}
+@media screen and (min-width: 1025px) {
+    body{
+        height: 100vh;
+        background-color: var.$blue-700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .card{
+        display: flex;
+        flex-direction: column;
+        margin: 80px ;
+        background-color: var.$white;
+        border-radius:36px;
+        height: 32.5rem; 
+        width: 31.5rem;
+        img{
+            margin: 3.75rem var.$spacing-800 var.$spacing-400 var.$spacing-800;
+        }
+        h1{
+            font-weight: var.$text-preset-1-weight;
+            font-size: var.$text-preset-1-size;
+            line-height: var.$text-preset-1-line-height;
+            letter-spacing: var.$text-preset-1-letter-spacing;
+            margin: 0 var.$spacing-800 var.$spacing-400 var.$spacing-800;
+        }
+        p{
+            font-weight: var.$text-preset-2-regular-weight;
+            font-size: var.$text-preset-2-regular-size;
+            line-height: var.$text-preset-2-regular-line-height;
+            letter-spacing: var.$text-preset-2-regular-letter-spacing;
+            margin: 0 var.$spacing-800 var.$spacing-400 var.$spacing-800;
+        }
+        button{
+            margin: 0 var.$spacing-800 var.$spacing-800 var.$spacing-800;
+            width: 80%;
+            cursor: pointer;
+            &:hover, &:active {
+                background: var.$gradient-4;
+                box-shadow: 10px 10px 20px 0px rgba(255, 82, 123, 0.5);
+            }
+        }
+    }
+    }
+}

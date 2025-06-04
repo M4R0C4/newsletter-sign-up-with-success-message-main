@@ -1,0 +1,123 @@
+@use '../bases/var';
+@media screen and (min-width: 1025px) {
+    /* Estilos para desktops grandes */
+    body{
+    background-color: var.$blue-700;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .attribution{
+    display: none;
+    }
+    main{
+        font-family: var.$font-primary;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 80px ;
+        background-color: var.$white;
+        border-radius:36px;
+        height: 100%;
+        width: 65rem;
+        .img__card{
+            width: auto;
+            height: 100%;
+            overflow: hidden;
+            .img__main{
+                position: relative;
+                height: 92%;
+                border-radius: 16px;
+                margin: var.$spacing-400 var.$spacing-400 var.$spacing-400 0;
+            } 
+        }
+        .informs{
+            padding: 0;
+            gap: var.$spacing-400;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-right: var.$spacing-800;
+            h1{
+                font-weight: var.$text-preset-1-weight;
+                font-size: var.$text-preset-1-size;
+                line-height: var.$text-preset-1-line-height;
+                letter-spacing: var.$text-preset-1-letter-spacing; 
+            }
+            p{  
+                font-weight: var.$text-preset-2-regular-weight;
+                font-size: var.$text-preset-2-regular-size;
+                line-height: var.$text-preset-2-regular-line-height;
+                letter-spacing: var.$text-preset-2-regular-letter-spacing;
+            }
+            ul{
+          display: flex;
+          flex-direction: column;
+          gap: var.$spacing-100;
+          li{
+            display: flex;
+            justify-content: flex-start;
+            gap: var.$spacing-200;
+            font-weight: var.$text-preset-2-regular-weight;
+            font-size: var.$text-preset-2-regular-size;
+            line-height: var.$text-preset-2-regular-line-height;
+            letter-spacing: var.$text-preset-2-regular-letter-spacing;
+            img{
+              padding-bottom: var.$spacing-200;
+            }
+            }
+          }
+        .form{
+          .email__container{
+            display: flex;
+            justify-content: space-between;
+            .title__email{
+              font-size: var.$text-preset-3-size;
+              line-height: var.$text-preset-3-line-height;
+              letter-spacing: var.$text-preset-3-letter-spacing;
+              font-weight: var.$text-preset-3-weight;
+            }
+            .warning-email{
+              color: var.$red;
+              font-size: var.$text-preset-3-size;
+              line-height: var.$text-preset-3-line-height;
+              letter-spacing: var.$text-preset-3-letter-spacing;
+              font-weight: var.$text-preset-3-weight;
+              position: relative;
+            }
+          }
+          .email{
+            width: 100%;
+            height: auto;
+            border: solid 1px;
+            border-radius: 8px;
+            padding: var.$spacing-200 var.$spacing-300 var.$spacing-200 var.$spacing-300;
+            margin-top: var.$spacing-100;
+            margin-bottom: var.$spacing-300;
+          }
+          button{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            border: solid 1px;
+            border-radius: 8px;
+            text-align: center;
+            padding: var.$spacing-200 var.$spacing-900 var.$spacing-200 var.$spacing-900;
+            margin-top: var.$spacing-300;
+            margin-bottom: var.$spacing-900;
+            background: var.$blue-800;
+            color: var.$white;
+            font-weight: var.$text-preset-3-weight;
+            font-size: var.$text-preset-3-size;
+            line-height: var.$text-preset-3-line-height;
+            letter-spacing: var.$text-preset-3-letter-spacing;
+          }
+        }
+        }
+        }
+        
+    
+    }
+}

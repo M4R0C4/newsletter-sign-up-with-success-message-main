@@ -1,0 +1,197 @@
+@import url("https://fonts.google.com/specimen/Roboto");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+/** Colors **/
+/** Fonts **/
+body {
+  font-family: "Roboto", sans-serif;
+}
+body .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+}
+body .card img {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 1.5rem 2rem 1.5rem;
+}
+body .card h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin: 0 1.5rem 2rem 1.5rem;
+}
+body .card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  margin: 0 1.5rem 2rem 1.5rem;
+}
+body .card b {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+body .card button {
+  width: 90%;
+  height: auto;
+  border: solid 1px;
+  border-radius: 8px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: #242742;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  margin: 13rem 1.5rem 1rem 1.5rem;
+}
+body .card button:hover, body .card button:active {
+  background: linear-gradient(90deg, #ff6a3a 0%, #ff527b 100%);
+  box-shadow: 10px 10px 20px 0px rgba(255, 82, 123, 0.5);
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  body {
+    height: 100vh;
+    background-color: #36384d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body .card {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    background-color: #fff;
+    border-radius: 36px;
+    height: 32.5rem;
+    width: 31.5rem;
+  }
+  body .card img {
+    margin: 3.75rem 4rem 2rem 4rem;
+  }
+  body .card h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin: 0 4rem 2rem 4rem;
+  }
+  body .card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin: 0 4rem 2rem 4rem;
+  }
+  body .card button {
+    margin: 0 4rem 4rem 4rem;
+    width: 80%;
+  }
+  body .card button:hover, body .card button:active {
+    background: linear-gradient(90deg, #ff6a3a 0%, #ff527b 100%);
+    box-shadow: 10px 10px 20px 0px rgba(255, 82, 123, 0.5);
+  }
+}
+@media screen and (min-width: 1025px) {
+  body {
+    height: 100vh;
+    background-color: #36384d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body .card {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    background-color: #fff;
+    border-radius: 36px;
+    height: 32.5rem;
+    width: 31.5rem;
+  }
+  body .card img {
+    margin: 3.75rem 4rem 2rem 4rem;
+  }
+  body .card h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin: 0 4rem 2rem 4rem;
+  }
+  body .card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin: 0 4rem 2rem 4rem;
+  }
+  body .card button {
+    margin: 0 4rem 4rem 4rem;
+    width: 80%;
+    cursor: pointer;
+  }
+  body .card button:hover, body .card button:active {
+    background: linear-gradient(90deg, #ff6a3a 0%, #ff527b 100%);
+    box-shadow: 10px 10px 20px 0px rgba(255, 82, 123, 0.5);
+  }
+}/*# sourceMappingURL=styles-sucess.css.map */

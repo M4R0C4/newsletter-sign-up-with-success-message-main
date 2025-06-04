@@ -1,0 +1,55 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+/** Colors **/ 
+
+$white: #fff;
+$gray: #949494;
+$blue-800: #242742;
+$blue-700: #36384d;
+$red: #ff6155;
+$gradient-4: linear-gradient(90deg, #ff6a3a 0%, #ff527b 100%);
+
+
+/** Fonts **/
+// Font Family
+$font-primary: 'Roboto', sans-serif;
+
+// Text Preset 1
+$text-preset-1-size: 56px;
+$text-preset-1-line-height: 100%;
+$text-preset-1-weight: 700; // Bold
+$text-preset-1-letter-spacing: 0px;
+
+// Text Preset 1 (Mobile)
+$text-preset-1-mobile-size: 40px;
+$text-preset-1-mobile-line-height: 100%;
+$text-preset-1-mobile-weight: 700; 
+$text-preset-1-mobile-letter-spacing: 0px;
+
+// Text Preset 2 (Bold)
+$text-preset-2-bold-size: 16px;
+$text-preset-2-bold-line-height: 150%;
+$text-preset-2-bold-weight: 700;
+$text-preset-2-bold-letter-spacing: 0px;
+
+// Text Preset 2 (Regular)
+$text-preset-2-regular-size: 16px;
+$text-preset-2-regular-line-height: 150%;
+$text-preset-2-regular-weight: 400; // Regular
+$text-preset-2-regular-letter-spacing: 0px;
+
+// Text Preset 3
+$text-preset-3-size: 12px;
+$text-preset-3-line-height: 150%;
+$text-preset-3-weight: 700;
+$text-preset-3-letter-spacing: 0px;
+
+// Spacing Tokens
+$spacing-100: .5rem; // 8px
+$spacing-200: 1rem; // 16px
+$spacing-300: 1.5rem; // 24px
+$spacing-400: 2rem; // 32px
+$spacing-500: 2.5rem; // 40px
+$spacing-600: 3rem; // 48px
+$spacing-800: 4rem; // 64px
+$spacing-900: 4.5rem; // 72px
+$spacing-1300: 6.5rem;  // 104px

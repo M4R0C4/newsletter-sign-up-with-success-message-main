@@ -1,0 +1,115 @@
+@use '../bases/var';
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+body{
+    background-color: var.$blue-700;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .attribution{
+    display: none;
+    }
+    main{
+        font-family: var.$font-primary;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 80px ;
+        background-color: var.$white;
+        border-radius:36px;
+        height: 100%; 
+        .img__card{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            .img__main{
+                position: relative;
+                width: 90.5%;
+                border-radius: 36px;
+                margin: 2.5rem;
+            }
+        }
+        .informs{
+            padding: 0 var.$spacing-500 var.$spacing-500 var.$spacing-500;
+            gap: var.$spacing-300;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1{
+                font-weight: var.$text-preset-1-weight;
+                font-size: var.$text-preset-1-size;
+                line-height: var.$text-preset-1-line-height;
+                letter-spacing: var.$text-preset-1-letter-spacing; 
+            }
+            p{
+                font-weight: var.$text-preset-2-regular-weight;
+                font-size: var.$text-preset-2-regular-size;
+                line-height: var.$text-preset-2-regular-line-height;
+                letter-spacing: var.$text-preset-2-regular-letter-spacing;
+            }
+            ul{
+          display: flex;
+          flex-direction: column;
+          gap: var.$spacing-200;
+          li{
+            display: flex;
+            justify-content: flex-start;
+            gap: var.$spacing-200;
+            font-weight: var.$text-preset-2-regular-weight;
+            font-size: var.$text-preset-2-regular-size;
+            line-height: var.$text-preset-2-regular-line-height;
+            letter-spacing: var.$text-preset-2-regular-letter-spacing;
+            img{
+              padding-bottom: var.$spacing-200;
+            }
+            }
+          }
+        .form{
+          .email__container{
+            display: flex;
+            justify-content: space-between;
+            .title__email{
+              font-size: var.$text-preset-3-size;
+              line-height: var.$text-preset-3-line-height;
+              letter-spacing: var.$text-preset-3-letter-spacing;
+              font-weight: var.$text-preset-3-weight;
+            }
+            .warning-email{
+              color: var.$red;
+              font-size: var.$text-preset-3-size;
+              line-height: var.$text-preset-3-line-height;
+              letter-spacing: var.$text-preset-3-letter-spacing;
+              font-weight: var.$text-preset-3-weight;
+              position: relative;
+            }
+          }
+          .email{
+            width: 100%;
+            height: auto;
+            border: solid 1px;
+            border-radius: 8px;
+            padding: var.$spacing-200 var.$spacing-300 var.$spacing-200 var.$spacing-300;
+            margin-top: var.$spacing-100;
+            margin-bottom: var.$spacing-300;
+          }
+          button{
+            width: 100%;
+            height: auto;
+            border: solid 1px;
+            border-radius: 8px;
+            padding: var.$spacing-200 var.$spacing-300 var.$spacing-200 var.$spacing-300;
+            margin-top: var.$spacing-100;
+            margin-bottom: var.$spacing-300;
+            background: var.$blue-800;
+            color: var.$white;
+            font-weight: var.$text-preset-3-weight;
+            font-size: var.$text-preset-3-size;
+            line-height: var.$text-preset-3-line-height;
+            letter-spacing: var.$text-preset-3-letter-spacing;
+          }
+        }
+        }
+    }
+        }
+    }
+
