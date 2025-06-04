@@ -1,6 +1,6 @@
 // Media Query
-import {mediaQuery} from '../script/mediaQuery.js';
-import {verifyEmail} from '../script/verifyEmail.js';
+import {mediaQuery} from './mediaQuery.js';
+import {verifyEmail} from './verifyEmail.js';
 mediaQuery();
 
 //Recolher todos os elementos necessários da página
